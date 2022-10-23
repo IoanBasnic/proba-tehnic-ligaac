@@ -9,15 +9,30 @@
       <div class="linie">
         <div>
           <img
+            id="image"
+            onclick="count(this)"
             src="prajitura-d-aia-buna.jpg"
             alt="Apasa pe mine sa vedem ce se intampla :)"
             height="300px"
           />
         </div>
         <div>
-          <p>Sunt un div :)</p>
+          <p>Iti place prajitura? Apasa! (Count: <span id="score">0</span>)</p>
         </div>
       </div>
     </div>
   </body>
 </html>
+
+<script>
+  var score = document.getElementById('score');
+  var totalScore = 0;
+
+  function count(e) {
+    //This is where i think i am having issues and am unsure what to do.
+    if (e.getAttribute('src') == 'prajitura-d-aia-buna.jpg') {
+      totalScore++;
+    }
+    score.textContent = totalScore;
+  }
+</script>
