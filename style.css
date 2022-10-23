@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+
+.centreaza-acest-div {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linie {
+  width: auto;
+}
+
+p {
+  text-align: center;
+}
