@@ -1,6 +1,6 @@
 # proba-tehnic-ligaac
 
-[![Build Status]([https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger](https://ioanbasnic.github.io/proba-tehnic-ligaac/index.html))
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://ioanbasnic.github.io/proba-tehnic-ligaac/)
 
 ## Proba UI - Task
 > Pune într-o pagină web o imagine cu o prăjitură, și un contor, care numără de câte ori ai dat click pe prăjitură. Ele trebuie să fie centrate.
